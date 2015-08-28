@@ -53,10 +53,15 @@ attribute secret or a different global one by setting `config.claude.secret` to
 your likings. Changing it will invalidate all the current encryptions, so
 beware of that.
 
-## Contributing
+Read the [`ActiveRecord::Base.encrypt`](https://github.com/gsamokovarov/claude/blob/75d72de1b3fb0f784133b057914d87bdf23a2d4a/lib/claude/extensions.rb#L6-L41)
+and [`ActiveRecord::Base.attr_encrypt`](https://github.com/gsamokovarov/claude/blob/75d72de1b3fb0f784133b057914d87bdf23a2d4a/lib/claude/extensions.rb#L71-L80)
+API documentation for more information.
 
-1. Fork it ( https://github.com/gsamokovarov/claude/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+# Why Claude?
+
+The library is named after [Claude Elwood Shannon]. He is considered to be the
+father of the modern mathematical cryptography.
+
+Why should you use it? Because it makes encryption simple. :-)
+
+[Claude Elwood Shannon]: https://en.wikipedia.org/wiki/Claude_Shannon
