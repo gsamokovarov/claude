@@ -26,8 +26,7 @@ may work for a single sensitive attribute, but it gets out of hand if you gotta
 do it regularly.
 
 Claude wraps `OpenSSL::Cipher` and lets you transparently encrypt and decrypt
-the your application sensitive attributes, so you don't have to do it manually
-all the time.
+sensitive attributes, so you don't have to do it manually all the time.
 
 Claude exposes the `encrypt` and `attr_encrypt` class macros to setup an
 attribute encryption.
