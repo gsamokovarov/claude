@@ -68,6 +68,8 @@ module Claude
       RUBY
     end
 
+    alias encrypt_attribute encrypt
+
     # An alias to encrypt that lets you encrypt multiple attributes at once.
     #
     # If only one attribute is given, it acts exactly like encrypt does.
@@ -85,5 +87,7 @@ module Claude
         encrypt attr, options
       end
     end
+
+    alias encrypt_attributes attr_encrypt
   end
 end
